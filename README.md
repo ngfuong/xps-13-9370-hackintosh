@@ -3,7 +3,9 @@
 * My laptop hardware information could be found at [this gist](https://gist.github.com/ngfuong/910a94c33bd650a20fe4913a2d57e547)
 
 # What's working?
-* Almost everything
+* **Almost everything**
+* **External speakers**: ALC3271 is not supported so I injected [VoodooHDA](https://github.com/chris1111/VoodooHDA-OC) instead.
+* **Wifi USB Adapter**: TENDA W311-MI with [Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
 
 # What's not working? (updating...)
 * Internal wifi card
