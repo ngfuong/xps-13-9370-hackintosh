@@ -5,9 +5,12 @@
 # What's working?
 * **Almost everything**
 * **External speakers**: ALC3271 is not supported so I injected [VoodooHDA](https://github.com/chris1111/VoodooHDA-OC) instead.
+* **Graphics**: Intel UHD 620
 * **Wifi USB Adapter**: TENDA W311-MI with [Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
+* **Bluetooth**: _Cannot turn off Bluetooth_
 
 # What's not working? (updating...)
 * Internal wifi card
 * Headphone jack (black right)
+* Serial number
 
