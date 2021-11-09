@@ -15,13 +15,16 @@
   > If you cannot `cp -R` into `/usr/bin` because of `read-only filesystems`, `cp` into `/usr/local/bin` instead.
 * **Graphics**: Patched Intel UHD 620
 * **Wifi USB Adapter**: TENDA W311-MI with [Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter)
-* **CPU Power Management**: Performance balanced config generated with [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend)
-* **OpenCore Boot GUI & Chime**
-* **Brightness slider**
-* **Mapped Intel USB ports**: [USBMap Guide](https://github.com/corpnewt/USBMap)
 * **Bluetooth**
+* **Mapped Intel USB ports**: [USBMap Guide](https://github.com/corpnewt/USBMap)
+* **CPU Power Management**: Performance-balance kext generated with [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend)
+* **Brightness Slider**
+* **OpenCore Boot GUI & Chime**
+* **Sleep & Wake from Keyboard**
+
 
 # What's not working?
 * XPS 13's dumb internal wifi card
 * Unable to turn off Bluetooth
+* Trackpad randomly stops working
 
