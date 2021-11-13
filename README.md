@@ -28,4 +28,5 @@
 * XPS 13's dumb QCA6174 internal wifi card
 * Unable to turn off Bluetooth (owing to unsupported combo wifi/BT card)
 * Trackpad randomly stops working
+* Ethernet
 
