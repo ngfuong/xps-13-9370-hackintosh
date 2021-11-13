@@ -1,0 +1,3 @@
+# Ignore DST_Store file
+*.DS_Store
+

@@ -40,6 +40,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-XOSI.aml</string>
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
@@ -264,6 +272,11 @@
 				<data>AADAhw==</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>acpi-wake-type</key>
+				<data>AQ==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1285,7 +1298,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=22 alcdelay=1000 swd_panic=1</string>
+				<string>keepsyms=1 debug=0x100 alcid=22 alcdelay=1000 swd_panic=1 forceRenderStandby=0 -wegnoegpu</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1358,23 +1371,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C029444034NLNV9JA</string>
+			<string>C02721802J9HRPC8C</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>zMdgbJY1</data>
+			<data>ADBlukPL</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac19,1</string>
+			<string>MacBookPro14,2</string>
 			<key>SystemSerialNumber</key>
 			<string>112233445566</string>
 			<key>SystemUUID</key>
-			<string>F5FEB9C4-1952-4662-BD8C-4E96007A18FD</string>
+			<string>D82497B1-7A8B-4DAD-96B5-0FFD4A459770</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
