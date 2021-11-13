@@ -16,6 +16,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-HP-FixLidSleep.aml</string>
+				<key>Path</key>
+				<string>SSDT-HP-FixLidSleep.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-PLUG-DRTNIA.aml</string>
 				<key>Path</key>
 				<string>SSDT-PLUG-DRTNIA.aml</string>
@@ -24,9 +32,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PNLF-CFL.aml</string>
+				<string>SSDT-PNLF.aml</string>
 				<key>Path</key>
-				<string>SSDT-PNLF-CFL.aml</string>
+				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -35,6 +43,14 @@
 				<string>ssdt-rmne.aml</string>
 				<key>Path</key>
 				<string>ssdt-rmne.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
+				<key>Path</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -288,42 +304,6 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>AirportItlwm.kext</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportItlwm</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AirportItlwm.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AtherosE2200Ethernet.kext</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AtherosE2200Ethernet</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AtherosE2200Ethernet.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>CodecCommander.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
@@ -342,24 +322,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>CPUFriendDataProvider.kext</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>CPUFriendDataProvider.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Lilu.kext</string>
 				<key>MaxKernel</key>
 				<string></string>
@@ -375,6 +337,42 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>CPUFriend.kext</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>CPUFriendDataProvider.kext</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CPUFriendDataProvider.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
