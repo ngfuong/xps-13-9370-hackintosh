@@ -6,6 +6,7 @@
 * **OC Version**: 0.7.5
 
 # What's working? (almost everything)
+* **SMBIOS**: MacBookPro14,2 (closest to Kaby Lake(U) 8th gen)
 * **Audio**: AppleALC with ALC299
 
   > ALC299 (ALC3271) has problems with headphone output.
@@ -24,7 +25,7 @@
 
 
 # What's not working?
-* XPS 13's dumb internal wifi card
-* Unable to turn off Bluetooth
+* XPS 13's dumb QCA6174 internal wifi card
+* Unable to turn off Bluetooth (owing to unsupported combo wifi/BT card)
 * Trackpad randomly stops working
 
