@@ -21,7 +21,7 @@
 * **CPU Power Management**: Performance-balance kext generated with [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend)
 * **Brightness Slider**
 * **OpenCore Boot GUI**
-* **Sleep & Wake from Keyboard**
+* **Sleep & Wake from Keyboard (refrain from spamming)**
 
 
 # What's not working?
