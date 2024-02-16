@@ -20,7 +20,7 @@
   > 
   > If you cannot `cp -R` into `/usr/bin` because of `read-only filesystems`, `cp` into `/usr/local/bin` instead.
 * **Graphics**: Patched Intel UHD 620
-* **Wifi USB Adapter**: TENDA W311-MI with [Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter) or Android USb tethering with [HoRNDIS](http://joshuawise.com/horndis)
+* **Wifi**: TENDA W311-MI USB Dongle with [Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter) or Android USB tethering with [HoRNDIS](http://joshuawise.com/horndis)
 * **Bluetooth**: [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/)
 * **Mapped Thunderbolt ports**: [USBMap Guide](https://github.com/corpnewt/USBMap)
 * **CPU Power Management**: Performance-balance kext generated with [CPUFriendFriend](https://github.com/corpnewt/CPUFriendFriend)
