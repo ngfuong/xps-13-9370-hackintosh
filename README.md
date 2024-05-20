@@ -16,7 +16,7 @@
 
   > ALC299 (ALC3271) has problems with headphone output.
   > 
-  > According to [EliteMacx68's guide](https://elitemacx86.com/threads/audio-distortion-when-using-headphones-on-laptops-clover-opencore.185/), install `Hda Verb` and `Jack Fix` to correct this.
+  > According to [KNNSpeed's guide](https://www.tonymacx86.com/threads/guide-dell-xps-15-9560-4k-touch-1tb-ssd-32gb-ram-100-adobergb.224486/page-9#post-1539760), install `Hda Verb` and `Jack Fix` to correct this.
   > 
   > If you cannot `cp -R` into `/usr/bin` because of `read-only filesystems`, `cp` into `/usr/local/bin` instead.
 * **Graphics**: Patched Intel UHD 620
