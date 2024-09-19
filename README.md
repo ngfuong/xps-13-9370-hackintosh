@@ -1,17 +1,55 @@
 # xps-13-9370-hackintosh
-<p align="center">
-  <img src="https://i.imgur.com/KodBvLC.png" alt="neofetch output"/>
-</p>
+| ![neofetch output.png](https://i.imgur.com/KodBvLC.png) | 
+|:--:| 
+| *“Cosmic Cliffs” by James Webb Space Telescope*|
 
-## Overview and Credits
-* Grand kudos to the [vanilla OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/) and QuantumShqipe's [OC 0.6.3 EFI Folder](https://github.com/QuantumShqipe/OpenCore-0.6.3-XPS-13-9370-BigSur)
-* Laptop hardware information could be found at [this gist](https://gist.github.com/ngfuong/910a94c33bd650a20fe4913a2d57e547)
+# Overview
+This repository is dedicated to providing resources for transforming a Dell XPS 9370 into a **partially** functional hackintosh.
+
+It's recommended to:
+1. Determine your hardware specs
+2. Read the Opencore vanilla guide extensively
+3. Make your own EFI (and debug if possible)
+4. Only use this repo as a reference point
+   
+    > Remember that hardware specs can vary between device to device so it's best you avoid copy - paste.
+
+# Specifications
+<details>
+<summary>Reveal Hardware Specs</summary>
+<span markdown="1">
+<ul>
+<li>Laptop: Dell XPS 13 9370 | Model 0H0VG3</li>
+<li>CPU: Intel Core i7-8550U Kaby Lake R 8th gen | @1.80GHz</li>
+<li>Chipset Model:
+      <ul>
+      <li>SMBIOS 3.0.0 present</li>
+      <li>Handle 0x0002, DMI type 2, 15 bytes</li>
+      <li>Base Board Information</li>
+      <li>Manufacturer: Dell Inc</li>
+      <li>Product Name: 0H0VG3</li>
+      <li>Version: A00</li>
+      <li>Serial Number: /5KRB5M2/CN129637CQ001C/</li>
+      </ul>
+</li>
+  <li>RAM: 8GB | 1867MHz</li>
+  <li>Graphics Card: Intel UHD Graphics 620</li>
+  <li>Wireless Interface (Wifi/BT Combo): Qualcomm Atheros | QCA6174 802.11ac Wireless Network Adapter</li>
+  <li>Audio Codec: HDA-Intel - HDA Intel PCH | Realtek ALC3271</li>
+  <li>Hard Drive: WD SN770 PCIe</li>
+  <li>Screen Resolution: 1920x1080~60GHz</li>
+</ul>
+</span>
+</details>
+
+  Detailed hardware dump can be found at [this gist](https://gist.github.com/ngfuong/910a94c33bd650a20fe4913a2d57e547).
+
 * **MacOS Version**:
   * Ventura 13.6 (currently using)
   * Big Sur 11.6 (deprecated)
 * **OpenCore Version**: 1.0.0
 
-# What's working?
+## What's working?
 * **SMBIOS**: MacBookPro14,1 or 14,2 (for Kaby Lake(U) 8th gen)
 * **Audio**: AppleALC with ALC299
 * **Graphics**: Patched Intel UHD 620
@@ -20,40 +58,19 @@
 * **USB Ports**: Mapped in Windows with [USBToolBox](https://github.com/USBToolBox/tool)
   > Alternatively, use [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) during MacOS installation then map USB in MacOS using USBMap's [Guide](https://github.com/corpnewt/USBMap)
 
-# What's not working?
+## What's not working?
 * Sleep currently disabled
 * XPS 13's dumb QCA6174 internal wifi card
 * Thunderbolt ports
 * Touch ID (of course)
 
-# Guides
-## Installation
-TBD...
-## Kext Info
-### 1. AppleALC
-Set `layout-id=22` according to layout but somehow there is no sound output. Gotta load `CodecCommander` kext to temporarily fix this.
-### 1. CodecCommander
-Since ALC299 (ALC3271) has problems with headphone output, use [KNNSpeed's guide](https://www.tonymacx86.com/threads/guide-dell-xps-15-9560-4k-touch-1tb-ssd-32gb-ram-100-adobergb.224486/page-9#post-1539760) to install `Hda Verb` and `Jack Fix` to correct this.
-If you cannot `cp -R` into `/usr/bin` because of `read-only filesystems`, `cp` into `/usr/local/bin` instead.
-### 2. NVMEFix 
-Currently not used because drive is Samsung T5/WD SN770. If you use a non-Apple NVME, enable this.
-### 3. SMC Kexts
-These SMC Kexts is compatible:
-* VirtualSMC
-* SMCBatteryManager
-* SMCProcessor
-* SMCLightSensor
-* SMCDellSensors
-* SMCSuperIO
-### 4. CPUFriend
-Enable this kext after OS is installed. And disable this kext when OS is being upgraded. 
-Remember to generate the CPUFriendDataProvider according to your performance preferences.
-(CPUFriendDataProvider kext should appear after the CPUFriend kext)
-### 5. BlueToolFixup
-If your wifi+bluetooth combo card (Qualcomm) is non-native (non-Apple Broadcom, Intel, etc), use this kext.
-**Do not use on macOS 11 or earlier.**
-### 6. Ethernet
-### TBD...
+# Installation
+Go to [Install.md](docs/Install.md)
 
+# Credits
+* Dortania's [OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+* RehabMan
+* KNNSpeed's [Guide](https://www.tonymacx86.com/threads/guide-dell-xps-15-9560-4k-touch-1tb-ssd-32gb-ram-100-adobergb.224486/page-9#post-1539760)
+* QuantumShqipe's [OC 0.6.3 EFI Folder](https://github.com/QuantumShqipe/OpenCore-0.6.3-XPS-13-9370-BigSur)
 
 
