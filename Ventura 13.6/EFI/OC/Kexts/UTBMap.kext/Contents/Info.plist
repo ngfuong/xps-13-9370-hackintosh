@@ -44,6 +44,8 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>left-under-USB2.0</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
@@ -53,6 +55,8 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>left-upper-USB2.0</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
@@ -62,6 +66,8 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>left-under-USB3.0</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
@@ -71,6 +77,8 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>left-upper-USB3.0</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
@@ -103,6 +111,8 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>right-USB2.0</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
@@ -112,6 +122,8 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>webcam-internal</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -121,6 +133,8 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>bluetooth-internal</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -130,6 +144,8 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
+						<key>#comment</key>
+						<string>fingerprint-internal</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -139,6 +155,8 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>right-USB3.0</string>
 						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>

@@ -30,3 +30,31 @@
 # What's not working?
 * XPS 13's dumb QCA6174 internal wifi card
 * Touch ID (of course)
+
+# Details 
+## Kexts
+### 1. AppleALC
+Set `layout-id=22` according to layout but somehow there is no sound output. Gotta load `CodecCommander` kext to temporarily fix this.
+### 2. NVMEFix 
+Currently disabled in `config.plist` because drive is Samsung T5 (SSD). If you use a non-Apple NVME, enable this.
+### 3. itlwm
+Also disabled because internal wifi card is not compatible. This varies depending on laptop config. Enable this if your wifi is found in [compatible list](https://openintelwireless.github.io/itlwm/Compat.html).
+### 4. SMC Kexts
+These SMC Kexts is compatible:
+* VirtualSMC
+* SMCBatteryManager
+* SMCProcessor
+* SMCLightSensor
+* SMCDellSensors
+* SMCSuperIO
+### 5. CPUFriend
+Enable this kext after OS is installed. And disable this kext when OS is being upgraded. 
+Remember to generate the CPUFriendDataProvider according to your performance preferences.
+(CPUFriendDataProvider kext should appear after the CPUFriend kext)
+### 6. BlueToolFixup
+If your wifi+bluetooth combo card (Qualcomm) is non-native (non-Apple Broadcom, Intel, etc), use this kext.
+**Do not use on macOS 11 or earlier.**
+### 7. Ethernet
+
+
+
