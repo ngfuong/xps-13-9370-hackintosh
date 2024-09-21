@@ -1,0 +1,129 @@
+{
+    "Motherboard": {
+        "Motherboard Name": "Dell XPS 13 9370",
+        "Motherboard Chipset": "Intel Sunrise Point-LP",
+        "Platform": "Laptop",
+        "CPU Configuration": "01"
+    },
+    "CPU": {
+        "CPU Manufacturer": "Intel",
+        "Processor Name": "QuadCore Intel Core i7-8550U",
+        "CPU Codename": "Kaby Lake-R",
+        "CPU Cores": "04",
+        "Instruction Set": "x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA, AES"
+    },
+    "GPU": {
+        "Intel Kaby Lake-R GT2 - Integrated Graphics Controller": {
+            "Manufacturer": "Intel",
+            "GPU Codename": "Kaby Lake-R GT2",
+            "Device ID": "8086-5917",
+            "Device Type": "Integrated GPU",
+            "Memory Size": "Unknown"
+        }
+    },
+    "Network": {},
+    "Storage": {
+        "Storage Controllers": {
+            "Standard NVM Express Controller": {
+                "Bus Type": "PCI",
+                "Device ID": "15B7-5017",
+                "Device Description": "SanDisk NVMe SSD Controller"
+            }
+        },
+        "Disk Drives": {
+            "WD_BLACK SN770 1TB (232505A003B3)": {
+                "Controller": "SanDisk 20-82-10081",
+                "Interface": "PCI-E 4.0 x4"
+            }
+        }
+    },
+    "Audio": {
+        "Realtek Audio": {
+            "Bus Type": "INTELAUDIO",
+            "Codec ID": "10EC-0299",
+            "Audio Endpoints": [
+                "Microphone Array",
+                "Speakers / Headphones",
+                "Stereo Mix"
+            ]
+        },
+        "Intel(R) Smart Sound Technology (Intel(R) SST) OED": {
+            "Bus Type": "INTELAUDIO",
+            "Codec ID": "8086-0222"
+        }
+    },
+    "USB": {
+        "USB Controllers": {
+            "Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)": {
+                "Bus Type": "PCI",
+                "Device ID": "8086-9D2F"
+            }
+        },
+        "USB Devices": {
+            "Integrated Webcam": {
+                "Device Description": "Integrated Webcam",
+                "Device Class": "EF / 02 (Interface Association Descriptor)",
+                "Device ID": "0BDA-58F4",
+                "Revision": "7605h"
+            },
+            "Qualcomm QCA61x4A Bluetooth": {
+                "Device Description": "Qualcomm QCA61x4A Bluetooth",
+                "Device Class": "E0 / 01 (Bluetooth)",
+                "Device ID": "0489-E0A2",
+                "Revision": "0001h"
+            },
+            "Goodix fingerprint": {
+                "Device Description": "Goodix fingerprint",
+                "Device Class": "EF / 02 (Interface Association Descriptor)",
+                "Device ID": "27C6-5385",
+                "Revision": "0100h"
+            }
+        }
+    },
+    "Input": {
+        "I2C HID Device": {
+            "Bus Type": "ACPI",
+            "Device ID": "DELL-07E6"
+        },
+        "Intel(R) HID Event Filter": {
+            "Bus Type": "ACPI",
+            "Device ID": "INT-33D5"
+        },
+        "Standard PS/2 Keyboard": {
+            "Bus Type": "ACPI",
+            "Device ID": "DLLK-07E6"
+        },
+        "PS/2 Compatible Mouse": {
+            "Bus Type": "ACPI",
+            "Device ID": "DLL-07E6"
+        }
+    },
+    "Bluetooth": {
+        "Qualcomm QCA61x4A Bluetooth": {
+            "Device ID": "0489-E0A2",
+            "Revision": "0001"
+        }
+    },
+    "SD Controller": {
+        "Device Description": "Realtek PCI-E Card Reader",
+        "Bus Type": "PCI",
+        "Device ID": "10EC-525A"
+    },
+    "Compatibility": {
+        "macOS Version": {
+            "Max Version": 24,
+            "Min Version": 17
+        },
+        "Unsupported Devices": {
+            "Biometric: Goodix fingerprint": {
+                "Bus Type": "USB",
+                "Device ID": "27C6-5385"
+            },
+            "WiFi: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter": {
+                "Connection Name": "WiFi",
+                "Bus Type": "PCI",
+                "Device ID": "168C-003E"
+            }
+        }
+    }
+}
