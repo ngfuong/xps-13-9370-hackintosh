@@ -34,7 +34,7 @@ It's recommended to:
 </li>
   <li>RAM: 8GB | 1867MHz</li>
   <li>Graphics Card: Intel UHD Graphics 620</li>
-  <li>Wireless Interface (Wifi/BT Combo): Qualcomm Atheros | QCA6174 802.11ac Wireless Network Adapter</li>
+  <li>Wireless Interface (Wifi/BT Combo): Qualcomm Atheros | QCA6174A 802.11ac Wireless Network Adapter</li>
   <li>Audio Codec: HDA-Intel - HDA Intel PCH | Realtek ALC3271</li>
   <li>Hard Drive: WD SN770 PCIe</li>
   <li>Screen Resolution: 1920x1080~60GHz</li>
@@ -42,9 +42,10 @@ It's recommended to:
 </span>
 </details>
 
-  Detailed hardware dump can be found at [this gist](https://gist.github.com/ngfuong/910a94c33bd650a20fe4913a2d57e547).
 
-* **MacOS Version**:
+Detailed hardware dump using AIDA64 can be found at [this file](hardware_dump.json).
+
+* **macOS Version**:
   * Ventura 13.6 (currently using)
   * Big Sur 11.6 (deprecated)
 * **OpenCore Version**: 1.0.0
@@ -56,16 +57,16 @@ It's recommended to:
 * **Wifi**: TENDA W311-MI USB Dongle with chris1111's [Big Sur Adapter](https://github.com/chris1111/Wireless-USB-Big-Sur-Adapter) or Android USB tethering with [HoRNDIS](http://joshuawise.com/horndis)
 * **Bluetooth**: [BlueToolFixUp](https://github.com/acidanthera/BrcmPatchRAM)
 * **USB Ports**: Mapped in Windows with [USBToolBox](https://github.com/USBToolBox/tool)
-  > Alternatively, use [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) during MacOS installation then map USB in MacOS using USBMap's [Guide](https://github.com/corpnewt/USBMap)
+  > Alternatively, use [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/) during macOS installation then map USB in macOS using USBMap's [Guide](https://github.com/corpnewt/USBMap)
 
 ## What's not working?
 * Sleep currently disabled
-* XPS 13's dumb QCA6174 internal wifi card
+* XPS 13's dumb QCA6174A internal wifi card
 * Thunderbolt ports
 * Touch ID (of course)
 
 # Installation
-Go to [Install.md](docs/Install.md)
+Go to [INSTALL.md](DOCS/INSTALL.md)
 
 # Credits
 * Dortania's [OpenCore Guide](https://dortania.github.io/OpenCore-Install-Guide/)
